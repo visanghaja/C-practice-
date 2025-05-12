@@ -15,5 +15,9 @@ int main() {
     else {
         std::cout << "You are not old enough to enter!";
     }
+
+    bool hungry = false;
+    hungry ? std::cout << "You are hungry!" : std::cout <<"You are full";
+    // std::cout << (hungry ? "You are hungry" : "you are full");
     return 0;
 }
